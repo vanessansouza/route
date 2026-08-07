@@ -41,7 +41,7 @@ async def carregar_pdfs():
         print(f"Carregando: {caminho}")
         loader = PyPDFLoader(caminho)
         
-        # Mantém exatamente a mesma lógica assíncrona que você gostou
+        # Mantém lógica assíncrona
         async for page in loader.alazy_load():
             todas_as_paginas.append(page)
             
