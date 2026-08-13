@@ -8,7 +8,7 @@ load_dotenv()
 # Configuração inicial da página
 st.set_page_config(page_title="Route AI - Assistente Logístico", page_icon="🚚", layout="wide")
 
-st.title("Olá!👋 Sou o **Route AI**")
+st.title("Olá!👋 Sou **Route AI**")
 st.markdown(
     "Consulte diretrizes operacionais, contratos, políticas de indenização e rastreabilidade da transportadora Route.\n\n"
     "O que você gostaria de saber?"
@@ -44,10 +44,10 @@ with st.sidebar:
  # PERGUNTAS SUGERIDAS FIXAS
     st.markdown("**💡 Perguntas Sugeridas**")
     
-    pergunta_1 = "Quais são as condições gerais de frete?"
+    pergunta_1 = "Quais são as modalidades de transporte rodoviário de cargas?"
     pergunta_2 = "Como funciona o portal de rastreabilidade?"
     pergunta_3 = "Quais são os prazos de coleta, transferência e entrega?"
-    pergunta_4 = "Quais são os canais oficiais de contato Route?"
+    pergunta_4 = "Onde posso baixar os boletos e documentos fiscais?"
     
     # Se o usuário clicar em qualquer botão, o texto é injetado automaticamente como prompt
     if st.button(pergunta_1, use_container_width=True):
