@@ -6,11 +6,11 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 # PDFs da Route
 caminhos_pdfs = [
-    'documents/01_contratos_e_legal/condicoes_gerais_frete_route.pdf',
-    'documents/02_tecnologia_e_rastreamento/portal_rastreabilidade_route.pdf',
-    'documents/03_seguros_e_qualidade/politica_indenizacoes_route.pdf',
-    'documents/04_atendimento_e_suporte/central_ajuda_route.pdf',
-    'documents/04_atendimento_e_suporte/sac_ouvidoria_route.pdf'
+    'documents/condicoes_gerais_frete_route.pdf',
+    'documents/portal_rastreabilidade_route.pdf',
+    'documents/politica_indenizacoes_route.pdf',
+    'documents/central_ajuda_route.pdf',
+    'documents/sac_ouvidoria_route.pdf'
 ]
 
 def inicializar_base_vetorial():
