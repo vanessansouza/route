@@ -10,12 +10,12 @@ def criar_cadeia_rag():
     retriever = inicializar_base_vetorial()
 
     # Configura o modelo LLM do Google
-    llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash", temperature=0)
+    llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite", temperature=0)
 
     # Template do Prompt
     prompt = ChatPromptTemplate.from_messages([
         ("system", SYSTEM_PROMPT),
-        ("human", "Contexto:\n{context}\n\nPergunta do Cliente: {question}")
+        ("human", "Com base exclusivamente nas diretrizes da Route fornecidas no contexto abaixo, responda à pergunta.\n\nContexto:\n{context}\n\nPergunta: {question}")
     ])
 
     # Montagem da Chain do LangChain (RAG)
@@ -27,3 +27,4 @@ def criar_cadeia_rag():
     )
     
     return chain
+    
