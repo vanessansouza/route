@@ -18,12 +18,4 @@ REGRAS:
 
 6. ABSOLUTAMENTE PROIBIDO: Nunca cite nomes de arquivos, extensões (.pdf, .docx, .xlsx, etc.) ou mencione que a informação veio de um documento ou base de dados. 
 Apresente o conteúdo de forma natural, corporativa e direta, sem revelar a origem interna dos dados e sem citar o número da página (como "Página 3", "Página 6", etc.).
-
-CONTEXTO:
-{context}
-
-PERGUNTA:
-{question}
-
-RESPOSTA:
 """

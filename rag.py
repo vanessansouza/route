@@ -15,9 +15,9 @@ def criar_cadeia_rag():
     # Template do Prompt
     prompt = ChatPromptTemplate.from_messages([
         ("system", SYSTEM_PROMPT),
-        ("human", "Com base exclusivamente nas diretrizes da Route fornecidas no contexto abaixo, responda à pergunta.\n\nContexto:\n{context}\n\nPergunta: {question}")
+        ("human", "Contexto:\n{context}\n\nPergunta:\n{question}")
     ])
-
+ 
     # Montagem da Chain do LangChain (RAG)
     chain = (
         {"context": retriever, "question": RunnablePassthrough()}
@@ -27,4 +27,3 @@ def criar_cadeia_rag():
     )
     
     return chain
-    
