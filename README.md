@@ -2,6 +2,19 @@
 
 > Assistente inteligente para consulta de documentos e diretrizes operacionais utilizando **Inteligência Artificial Generativa e RAG (Retrieval-Augmented Generation)**.
 
+<p align="center">
+  <img src="assets/routeai-home.png" width="48%">
+  <img src="assets/routeai-response.png" width="48%">
+</p>
+
+<p align="center">
+  🌐 <a href="https://routeai.streamlit.app/"><strong>Acessar Aplicação</strong></a>
+</p>
+
+<p align="center">
+  <img src="assets/routeai-home.png" alt="Route AI Home" width="100%">
+</p>
+
 O **Route AI** é uma aplicação desenvolvida para demonstrar como IA Generativa pode ser aplicada ao contexto de **logística e transporte**, permitindo que usuários consultem informações de uma base documental por meio de linguagem natural.
 
 A aplicação utiliza **RAG** para recuperar informações relevantes dos documentos e fornecer respostas contextualizadas com base no conteúdo disponível na base de conhecimento.
@@ -25,6 +38,28 @@ A aplicação utiliza **RAG** para recuperar informações relevantes dos docume
 * **Hugging Face Embeddings**
 * **ChromaDB**
 * **python-dotenv**
+
+📁 Estrutura
+
+route/
+├── assets/
+│   ├── logo-route.png
+│   ├── routeai-home.png
+│   └── routeai-response.png
+├── documents/
+│   ├── central_ajuda_route.pdf
+│   ├── condicoes_gerais_frete_route.pdf
+│   ├── politica_indenizacoes_route.pdf
+│   ├── portal_rastreabilidade_route.pdf
+│   └── sac_ouvidoria_route.pdf
+├── .gitattributes
+├── .gitignore
+├── LICENSE
+├── README.md
+├── app.py
+├── data.py
+├── prompt.py
+└── rag.py
 
 ### Responsabilidade dos principais arquivos
 
@@ -66,7 +101,7 @@ Eles **não representam documentos corporativos reais, informações confidencia
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/route.git
+git clone https://github.com/vanessansouza/route.git
 cd route
 ```
 
@@ -103,6 +138,12 @@ Qual é a política de indenização para extravio de cargas?
 
 Como funciona o atendimento do SAC?
 ```
+
+🌐 **Deploy**
+
+A aplicação está disponível no Streamlit Community Cloud.
+
+Acesse: [routeai.streamlit.app](https://routeai.streamlit.app/)
 
 ## 🎯 Objetivo
 
