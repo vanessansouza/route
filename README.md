@@ -3,16 +3,12 @@
 > Assistente inteligente para consulta de documentos e diretrizes operacionais utilizando **Inteligência Artificial Generativa e RAG (Retrieval-Augmented Generation)**.
 
 <p align="center">
-  <img src="assets/routeai-home.png" width="48%">
-  <img src="assets/routeai-response.png" width="48%">
+  <img src="https://raw.githubusercontent.com/vanessansouza/route/main/assets/routeai-home.png" width="48%">
+  <img src="https://raw.githubusercontent.com/vanessansouza/route/main/assets/routeai-response.png" width="48%">
 </p>
 
 <p align="center">
   🌐 <a href="https://routeai.streamlit.app/"><strong>Acessar Aplicação</strong></a>
-</p>
-
-<p align="center">
-  <img src="assets/routeai-home.png" alt="Route AI Home" width="100%">
 </p>
 
 O **Route AI** é uma aplicação desenvolvida para demonstrar como IA Generativa pode ser aplicada ao contexto de **logística e transporte**, permitindo que usuários consultem informações de uma base documental por meio de linguagem natural.
@@ -41,25 +37,22 @@ A aplicação utiliza **RAG** para recuperar informações relevantes dos docume
 
 📁 Estrutura
 
+```text
 route/
 ├── assets/
 │   ├── logo-route.png
-│   ├── routeai-home.png
-│   └── routeai-response.png
+│   ├── route-ai-home.png
+│   ├── route-ai-chat.png
+│   └── route-ai-response.png
+│
 ├── documents/
-│   ├── central_ajuda_route.pdf
-│   ├── condicoes_gerais_frete_route.pdf
-│   ├── politica_indenizacoes_route.pdf
-│   ├── portal_rastreabilidade_route.pdf
-│   └── sac_ouvidoria_route.pdf
-├── .gitattributes
-├── .gitignore
-├── LICENSE
-├── README.md
 ├── app.py
 ├── data.py
 ├── prompt.py
-└── rag.py
+├── rag.py
+├── requirements.txt
+└── README.md
+```
 
 ### Responsabilidade dos principais arquivos
 
