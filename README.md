@@ -1,5 +1,3 @@
-# route
-
 # Route AI — Assistente Corporativo Logístico
 
 > Assistente inteligente para consulta de documentos e diretrizes operacionais utilizando **Inteligência Artificial Generativa e RAG (Retrieval-Augmented Generation)**.
