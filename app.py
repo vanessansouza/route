@@ -48,9 +48,23 @@ with st.spinner("Carregando base de conhecimento dos PDFs da Route..."):
 
 # Construção da Coluna Esquerda (Sidebar)
 with st.sidebar:
-    # Logo / Cabeçalho da Sidebar
-    st.image("assets/logo-route.png", width=120)
-    st.caption("Assistente Corporativo e Logístico")
+    # Cabeçalho Principal na Sidebar
+    col_logo, col_titulo = st.columns([1, 3])
+    with col_logo:
+        st.image("assets/logo-route.png", width=60)
+
+    with col_titulo:
+        st.markdown(
+            """
+            <div style="padding: 0;">
+                <h1 style="margin: 0; padding: 0; font-size: 1.6rem; line-height: 1.2;">Route AI</h1>
+                <p style="margin: 0; color: #666; font-size: 0.9rem;">
+                    Assistente Logístico
+                </p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
     
     st.divider()
     
