@@ -6,3 +6,4 @@ langchain-huggingface
 langchain-google-genai
 python-dotenv
 pypdf
+sentence-transformers
