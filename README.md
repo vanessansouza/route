@@ -1,4 +1,4 @@
-# Route AI — Assistente Corporativo Logístico
+# Route AI- Assistente Corporativo Logístico
 
 > Assistente inteligente para consulta de documentos e diretrizes operacionais utilizando **Inteligência Artificial Generativa e RAG (Retrieval-Augmented Generation)**.
 
@@ -41,17 +41,22 @@ A aplicação utiliza **RAG** para recuperar informações relevantes dos docume
 route/
 ├── assets/
 │   ├── logo-route.png
-│   ├── route-ai-home.png
-│   ├── route-ai-chat.png
-│   └── route-ai-response.png
-│
+│   ├── routeai-home.png
+│   └── routeai-response.png
 ├── documents/
+│   ├── central_ajuda_route.pdf
+│   ├── condicoes_gerais_frete_route.pdf
+│   ├── politica_indenizacoes_route.pdf
+│   ├── portal_rastreabilidade_route.pdf
+│   └── sac_ouvidoria_route.pdf
+├── .gitattributes
+├── .gitignore
+├── LICENSE
+├── README.md
 ├── app.py
 ├── data.py
 ├── prompt.py
-├── rag.py
-├── requirements.txt
-└── README.md
+└── rag.py
 ```
 
 ### Responsabilidade dos principais arquivos
